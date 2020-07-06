@@ -4,12 +4,14 @@ import Todo from './Todo';
 // feel free to change this component.js into TodoList.js
 const TodoList = (props) => {
   return (
-    <div>
+    <div className='listWrapper'>
+      <button className='removeCompleted' onClick={props.removeCompleted}>
+        Remove completed
+      </button>
+
       {props.todos.map((todo) => (
         <Todo todo={todo} toggleTodo={props.toggleTodo} />
       ))}
-
-      <button onClick={props.removeCompleted}>Remove completed</button>
     </div>
   );
 };

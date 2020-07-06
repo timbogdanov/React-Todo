@@ -25,12 +25,12 @@ class TodoForm extends React.Component {
 
   render() {
     return (
-      <form>
-        <label htmlFor='todoTask'>Todo Task</label>
+      <form className='todoForm'>
         <input
           type='text'
           id='todoTask'
           name='todo'
+          placeholder='Enter New Task'
           onChange={this.handleInput}
           value={this.state.inputValue}
         ></input>

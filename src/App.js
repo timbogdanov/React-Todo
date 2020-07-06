@@ -6,12 +6,32 @@ import './components/Todo.css';
 const todosList = [
   {
     task: 'Organize Garage',
-    id: 1528817077286,
+    id: 152881707721286,
     completed: false,
   },
   {
     task: 'Bake Cookies',
-    id: 1528817084358,
+    id: 15288170874358,
+    completed: false,
+  },
+  {
+    task: 'Bake Cookies',
+    id: 15288170843258,
+    completed: false,
+  },
+  {
+    task: 'Bake More Cookies',
+    id: 15288137084358,
+    completed: false,
+  },
+  {
+    task: 'Message Mark',
+    id: 15288217084358,
+    completed: false,
+  },
+  {
+    task: 'Slap Mark',
+    id: 15288170843518,
     completed: false,
   },
 ];
