@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  font-family: 'Inter', sans-serif;
+}
+
+.completed {
+  background: #222222 !important;
+  text-decoration: line-through;
+}
+
+.mainWrapper {
+  width: 600px;
+  margin: 0 auto;
+  color: white;
+  margin-top: 100px;
+}
+
+.listWrapper {
+  margin-top: 15px;
+}
+
+.todoForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoForm button,
+.todoForm input[type='text'],
+.removeCompleted {
+  background: #111111;
+  border: none;
+  padding: 15px 20px;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+}
+
+.todoForm button,
+.removeCompleted {
+  cursor: pointer;
+}
+
+.removeCompleted {
+  margin-bottom: 35px;
+  width: 100%;
+  background: #202265;
+}
+
+.removeCompleted:hover {
+  background: #272AB0;
+}
+
+.todoForm input[type='text'] {
+  width: 80%;
+}
+
+.todo {
+  width: 100%;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  background: #111111;
+  border: 1px solid #252525;
+}
